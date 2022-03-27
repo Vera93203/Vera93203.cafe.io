@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+
+		.container{
+			width: 2000px;
+			margin: 8 auto;
+			border-left: none;   
+			border-right: none;
+
+			}
+		.header{	
+			
+			border: 1px solid black;
+			height: 1000px;
+			background-image: url(header1.jpg);
+			background-repeat: no-repeat;
+			background-position:top left;
+			background-color: #34282C;
+			background-size: 400px 300px;
+			}
+
+
+			.keke h1{
+				float: middle;
+				font-family: Comic Sans MS;
+				font-size: 80px;
+						color:#E5E4E2;
+						text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+			}
+			.koi{
+				float: top left;
+				width: 500px;
+				height: 400px;
+			}
+		
+		.navigation{
+			border: 1px solid black;
+			background-color: #3D3C3A;
+			height: 50px;
+			line-height: 50px;
+			color: white;
+			
+		}
+		.navigation a{
+			text-decoration: none;
+			display: inline-block;
+			width: 250px;
+			float: left;
+			border-right:1px solid black;
+			text-align: center;
+			font-family: Comic Sans MS;
+			font-size: 200%;
+			color: white;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+		}
+		 .navigation a:hover{
+		 	background-color: #F660AB;
+		 }
+				
+
+			.search input[type=text]{
+			width: 400px;
+			height: 30px;
+			border-radius: 25px;
+			border: 1px solid black;
+			margin-top: 5px;
+		}
+	
+		.search{
+			float: right;
+			margin top: 5px;
+			
+		}
+		.search button{
+			background-color: white;
+			color: black;
+			float: right;
+			padding: 10px 10px;
+			margin-top: 10px;
+			font-size: 12px;
+			cursor: pointer;
+			border: none;
+
+			}
+		.content{
+				background-color: black;
+				border: 1px solid black;
+			}
+		.content p{
+			text-align: center;
+			color: white;
+			font-family: Comic Sans MS;
+			font-size: 40px;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+			background-color: black;
+			}
+
+		
+			
+		.todayspecial img{
+			border-radius: 30px;
+			border: hidden;
+			text-align: center;
+			padding: 10px;
+			box-shadow: 10px 10px 10px 5px pink ;
+			background-color: white;
+			
+
+		}
+		.todayspecial img:hover{
+			cursor: pointer;
+			opacity: 0.8;
+			display: block;
+			box-shadow: 10px 10px 10px 5px #DE8CF0;
+
+		}
+		.todayspecial{
+		background-color: black;
+		}
+
+		.pspecial{
+				border: none;
+				text-align: center;
+			color: white;
+			font-family: Comic Sans MS;
+			font-size: 10px;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				background-color: black;
+				}
+			
+
+		}
+		
+		}
+		.content1{
+			width: 2000px;
+			
+			border: 1px solid black;
+			background-color: #2B1B17;
+			
+		}
+		.pmm{
+			float: left;
+			padding: 10px;
+			box-shadow: 5px 10px 15px 2px pink;
+			
+		}
+		.pmm1{
+			float: right;
+			padding: 10px;
+			box-shadow: 5px 10px 15px 2px pink;
+
+
+		}
+		.pmm:hover{
+			opacity: 0.8;
+			display: block;
+			box-shadow: 15px 10px 10px 5px #DE8CF0;
+
+		}
+		.pmm1:hover{
+			opacity: 0.8;
+			display: block;
+			box-shadow: 30px 20px 20px 5px #DE8CF0;
+		}
+		.nana{
+			float: right;
+			font-size: 30px;
+			font-family: Comic Sans MS;
+			text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 40px 40px 0px rgba(170,74,46,0);
+			color: white;
+			text-align: justify;
+			padding: 20px;
+		}
+
+		.footer{
+			border: none;
+			height: 600px;
+			background-color: #132226;
+
+		}
+		.container1{
+			width: 2000px;
+			margin-right: 100px;
+			background-color: #2B1B17;
+			height: 700px;
+		}
+
+		.sub{
+			width: 600px;
+			float: left;
+			text-align: center;
+			padding: 10px;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+		}
+		.mid{
+			width: 600px;
+			text-align: justify;
+			padding: 10px;
+			float: left;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+		}
+		.lee{
+			font-family: Comic Sans MS;
+			font-size: 40px;
+			text-align: center;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+				
+				
+		}
+		.pf1{
+			font-family: Comic Sans MS;
+			font-size: 50px;
+			text-align: center;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+				
+		}
+		.pa1{
+			font-family: Comic Sans MS;
+			font-size: 30px;
+			text-align: center;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+				
+		}
+		.pa1:hover{
+			background-color: #FF2400;
+		}
+		.lee1{
+
+				border: none;
+				text-align: center;
+			color: white;
+			font-family: Comic Sans MS;
+			font-size: 30px;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+			}
+		.nml{
+			background-color: #132226;}
+		.fa-facebook {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+   box-shadow: 5px 5px 5px 5px pink;
+   height: 20px;
+   width: 20px;
+
+}
+
+			.fa-twitter {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+   box-shadow: 5px 5px 5px 5px pink;
+   height: 20px;
+   width: 20px;
+
+}
+
+		.fa-instagram{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+   box-shadow: 5px 5px 5px 2px pink;
+   height: 20px;
+   width: 20px;
+
+}
+		.fa:hover {
+    opacity: 0.7;
+    color: black;
+		}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+			}
+		.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #bb0000;
+  color: white;
+			}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3D3C3A;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	  display: block;}
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+		</style>
+		
+</head>
+<body>
+	<div class="container">
+	<div class="header">
+		<div class="keke">
+			<h1 align="center">The Memories<br>(Cake and Bakery)</h1>
+	</div>
+	<div class="navigation">
+		<a href="index.html"><i class="material-icons"><i class="fa fa-home" style="color: white;padding: 3px;">Home</i></a>
+		<a href=" about.html"><i class="material-icons"><i class="fa fa-address-book-o" style="color: white;padding: 3px;">About</i></a>
+		<a href="Grownup.html"><i class="material-icons"><i class="fa fa-birthday-cake" style="color: white;padding: 3px;">Grown Up</i></a>
+		<div class="dropdown"><a href="gallery.html"><i class="material-icons"><i class="fa fa-photo" style="color: white;padding: 3px;">Gallery</i></a>
+			<div class="dropdown-content">
+				<a href="gallery.html"><i class="material-icons"><i class="fa fa-birthday-cake" style="color: white;padding: 3px;">Cake</i></a>
+				<a href="dessert.html"><i class="material-icons"><i class="fa fa-heart" style="color: white;padding: 3px;">Dessert</i></a>
+				<a href="coffee.html"><i class="material-icons"><i class="fa fa-coffee" style="color: white;padding: 3px;">Coffee</i></a>
+				
+			</div></div>
+		<a href="feedback.html"><i class="material-icons"><i class="fa fa-street-view" style="color: white;padding: 3px;">Feedback</i></a>
+		<a href="contant.html"><i class="material-icons"><i class="fa fa-phone" style="color: white;padding: 3px;">Contact</i></a>
+	<div class="search">
+		<form>
+			<input type="text" placeholder="Search products" name="search">
+			<button>
+				<i class="fa fa-search"></i>
+			</button>
+		</form></div></div>
+		<div class="content1">
+			<div class="hi">
+				<img class="pmm" src="cake.jpg" height="500px" width="950px">
+				<img class="pmm1"src="cake1.jpg" height="490px" width="970px">
+				<p class="nana">Experience the best of baking with our heart.
+				They are baked, especially for you.
+					Mouthwatering taste, exceptional service.
+				Great taste in every bite.
+					We bake it right.
+				Baked with the best ingredients.
+				We serve fresh every day.
+					Fall in love with our cakes.
+			</p></div>
+		<div class="content">
+			<p>Ready-to-eat slice of heaven.Bring on the cake!
+				<br><br><br>Cake for kids</p>
+			
+			<div class="todayspecial">
+		<table width="70%" align="center" width="2000px" height="350px">
+			<tr align="center">
+				<td><img src="kid.jpg" width="300px" height="300px"></td>
+				<td><img src="kid1.jpg" width="300px" height="300px"></td>
+				<td><img src="kid2.jpg" width="300px" height="300px"></td>
+				<td><img src="kid3.jpg" width="300px" height="300px"></td>
+				<td><img src="kid4.jpg" width="300px" height="300px"></td>
+			</tr>
+
+			<tr aligin="center" bgcolor="132226">
+				<td><p class="pspecial">$45</p></td>
+				<td><p class="pspecial">$60</p></td>
+				<td><p class="pspecial">$55</p></td>
+				<td><p class="pspecial">$50</p></td>
+				<td><p class="pspecial">$65</p></td>
+			</tr>
+		</table>
+	</div></div>
+	<div class="content">
+			<p>Birthday Cakes</p>
+			
+			<div class="todayspecial">
+		<table width="70%" align="center" width="2000px" height="350px">
+			<tr align="center">
+				<td><img src="bd.jpg" width="300px" height="300px"></td>
+				<td><img src="bd1.jpg" width="300px" height="300px"></td>
+				<td><img src="bd2.webp" width="300px" height="300px"></td>
+				<td><img src="bd3.jpg" width="300px" height="300px"></td>
+				<td><img src="bd4.jpg" width="300px" height="300px"></td>
+			</tr>
+
+			<tr aligin="center" bgcolor="132226">
+				<td><p class="pspecial">$60</p></td>
+				<td><p class="pspecial">$40</p></td>
+				<td><p class="pspecial">$80</p></td>
+				<td><p class="pspecial">$70</p></td>
+				<td><p class="pspecial">$50</p></td>
+			</tr>
+		</table>
+	</div></div>
+		<div class="content">
+			<p>Cake for teenagers</p>
+			
+			<div class="todayspecial">
+		<table width="70%" align="center" width="2000px" height="350px">
+			<tr align="center">
+				<td><img src="teen.jpg" width="300px" height="300px"></td>
+				<td><img src="teen1.jpg" width="300px" height="300px"></td>
+				<td><img src="teen2.jpg" width="300px" height="300px"></td>
+				<td><img src="teen3.jpg" width="300px" height="300px"></td>
+				<td><img src="teen4.jpg" width="300px" height="300px"></td>
+			</tr>
+
+			<tr aligin="center" bgcolor="132226">
+				<td><p class="pspecial">$40</p></td>
+				<td><p class="pspecial">$55</p></td>
+				<td><p class="pspecial">$65</p></td>
+				<td><p class="pspecial">$80</p></td>
+				<td><p class="pspecial">$73</p></td>
+			</tr>
+		</table>
+	</div></div>
+		<div class="content">
+			<p>Wedding Cakes</p>
+			
+			<div class="todayspecial">
+		<table width="70%" align="center" width="2000px" height="450px">
+			<tr align="center">
+				<td><img src="wed.jpg" width="300px" height="400px"></td>
+				<td><img src="wed1.jpg" width="300px" height="400px"></td>
+				<td><img src="wed2.jpg" width="300px" height="400px"></td>
+				<td><img src="wed3.jpg" width="300px" height="400px"></td>
+				<td><img src="wed4.jpg" width="300px" height="400px"></td>
+			</tr>
+
+			<tr aligin="center" bgcolor="132226">
+				<td><p class="pspecial">$150</p></td>
+				<td><p class="pspecial">$145</p></td>
+				<td><p class="pspecial">$200</p></td>
+				<td><p class="pspecial">$300</p></td>
+				<td><p class="pspecial">$250</p></td>
+			</tr>
+		</table>
+	</div></div>
+		<div class="content">
+			<p>Simple cakes</p>
+			
+			<div class="todayspecial">
+		<table width="70%" align="center" width="2000px" height="350px">
+			<tr align="center">
+				<td><img src="pf.jpg" width="300px" height="300px"></td>
+				<td><img src="pf1.jpg" width="300px" height="300px"></td>
+				<td><img src="pf2.jpg" width="300px" height="300px"></td>
+				<td><img src="pf3.jpg" width="300px" height="300px"></td>
+				<td><img src="pf4.jpg" width="300px" height="300px"></td>
+			</tr>
+
+			<tr aligin="center" bgcolor="132226">
+				<td><p class="pspecial">$60</p></td>
+				<td><p class="pspecial">$55</p></td>
+				<td><p class="pspecial">$53</p></td>
+				<td><p class="pspecial">$30</p></td>
+				<td><p class="pspecial">$65</p></td>
+			</tr>
+		</table>
+	</div></div>
+		<div class="content">
+			<p>Rose Cakes</p>
+			
+			<div class="todayspecial">
+		<table width="70%" align="center" width="2000px" height="350px">
+			<tr align="center">
+				<td><img src="rose.jpg" width="300px" height="300px"></td>
+				<td><img src="rose1.jpg" width="300px" height="300px"></td>
+				<td><img src="rose2.jpg" width="300px" height="300px"></td>
+				<td><img src="rose3.jpg" width="300px" height="300px"></td>
+				<td><img src="rose4.jpg" width="300px" height="300px"></td>
+			</tr>
+
+			<tr aligin="center" bgcolor="132226">
+				<td><p class="pspecial">$60</p></td>
+				<td><p class="pspecial">$40</p></td>
+				<td><p class="pspecial">$58</p></td>
+				<td><p class="pspecial">$40</p></td>
+				<td><p class="pspecial">$65</p></td>
+			</tr>
+		</table>
+	</div></div>
+		<div class="content">
+			<p>Cakes for grandparents</p>
+			
+			<div class="todayspecial">
+		<table width="70%" align="center" width="2000px" height="350px">
+			<tr align="center">
+				<td><img src="gp.jpeg" width="300px" height="300px"></td>
+				<td><img src="gp1.jpg" width="300px" height="300px"></td>
+				<td><img src="gp2.jpg" width="300px" height="300px"></td>
+				<td><img src="gp3.jpg" width="300px" height="300px"></td>
+				<td><img src="gp4.jpg" width="300px" height="300px"></td>
+			</tr>
+
+			<tr aligin="center" bgcolor="132226">
+				<td><p class="pspecial">$35</p></td>
+				<td><p class="pspecial">$40</p></td>
+				<td><p class="pspecial">$50</p></td>
+				<td><p class="pspecial">$30</p></td>
+				<td><p class="pspecial">$55</p></td>
+			</tr>
+		</table>
+	</div></div>
+			<div class="content">
+			<p>Cakes for anniversary</p>
+			
+			<div class="todayspecial">
+		<table width="70%" align="center" width="2000px" height="400px">
+			<tr align="center">
+				<td><img src="anni.jpg" width="300px" height="350px"></td>
+				<td><img src="anni2.jpg" width="300px" height="350px"></td>
+				<td><img src="anni3.jpg" width="300px" height="350px"></td>
+				<td><img src="anni5.jpg" width="300px" height="350px"></td>
+				<td><img src="anni4.jpg" width="300px" height="350px"></td>
+			</tr>
+
+			<tr aligin="center" bgcolor="132226">
+				<td><p class="pspecial">$35</p></td>
+				<td><p class="pspecial">$40</p></td>
+				<td><p class="pspecial">$50</p></td>
+				<td><p class="pspecial">$30</p></td>
+				<td><p class="pspecial">$55</p></td>
+			</tr>
+		</table>
+	</div></div>
+			<div class="content">
+			<p>Christmas Cakes</p>
+			
+			<div class="todayspecial">
+		<table width="70%" align="center" width="2000px" height="350px">
+			<tr align="center">
+				<td><img src="ch.jpg" width="300px" height="300px"></td>
+				<td><img src="ch1.jpg" width="300px" height="300px"></td>
+				<td><img src="ch2.jpg" width="300px" height="300px"></td>
+				<td><img src="ch3.jpg" width="300px" height="300px"></td>
+				<td><img src="ch4.jpg" width="300px" height="300px"></td>
+			</tr>
+
+			<tr aligin="center" bgcolor="132226">
+				<td><p class="pspecial">$50</p></td>
+				<td><p class="pspecial">$45</p></td>
+				<td><p class="pspecial">$35</p></td>
+				<td><p class="pspecial">$30</p></td>
+				<td><p class="pspecial">$20</p></td>
+			</tr>
+		</table>
+	</div></div>
+				<div class="content">
+			<p>Chocolate Cakes</p>
+			
+			<div class="todayspecial">
+		<table width="70%" align="center" width="2000px" height="350px">
+			<tr align="center">
+				<td><img src="choco.webp" width="300px" height="300px"></td>
+				<td><img src="choco1.jpg" width="300px" height="300px"></td>
+				<td><img src="choco2.png" width="300px" height="300px"></td>
+				<td><img src="choco3.jpg" width="300px" height="300px"></td>
+				<td><img src="choco4.jpg" width="300px" height="300px"></td>
+			</tr>
+
+			<tr aligin="center" bgcolor="132226">
+				<td><p class="pspecial">$50</p></td>
+				<td><p class="pspecial">$45</p></td>
+				<td><p class="pspecial">$35</p></td>
+				<td><p class="pspecial">$30</p></td>
+				<td><p class="pspecial">$20</p></td>
+			</tr>
+		</table>
+	</div></div>
+		<div class="content">
+			<p>Customers can order above cakes.There are too many types of cakes in our shop.<br>So I hope you enjoy to visit and order.</p>
+		</div>
+		<div class="footer">
+					<div class="container1">
+					<div class="sub">
+						<img src="foot.jpg" width="500px" height="300px"><br>
+						<p class="lee">Happiness is like a cake:<br>have too much of it and you get sick of it</p>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i  class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+
+					<div class="mid">
+						<a class="pf1">Support</a><br><br><br>
+						<a class="pa1" href="feedback.html">Feedback</a>
+						<br>
+						<a class="pa1" href="contant.html">Contact</a>
+						<br>
+						<a class="pa1" href="about.html">About us<a>
+							<br>
+						<a class="pa1" href="gallery.html">Enjoy with our cakes</a>
+						<p class="lee">Take the broken piece of your life,
+							<br>bake a master cake out of it</p><br><br>
+						<p class="lee1">Powered by Phone Myat Min&#169;2020</p>
+					</div>
+
+					<div class="right">
+						<a class="pf1">About Location</p>
+						<a class="pa1" href="contant.html">Find or not?
+						Detail our contact<br>
+						<br>
+						NO(22), ThitSar Road;<br>
+						 YanKin, Yangon. <br>
+						+959772563021,+95997357493, +9595027081<br></a><br><br>
+							<a class="pa1" href="#">Info@MemoriesCakeshop.com</a><br>
+							<a class="pa1" href="index.html">web.MemoriesCakeshop.com</a>
+						</div></div></div>
+</body>
+</html>
+		
+		

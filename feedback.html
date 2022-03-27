@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+
+		.container{
+			width: 2000px;
+			margin: 8 auto;
+			border-left: none;   
+			border-right: none;
+
+			}
+		.header{	
+			
+			border: 1px solid black;
+			height: 1000px;
+			background-image: url(header1.jpg);
+			background-repeat: no-repeat;
+			background-position:top left;
+			background-color: #34282C;
+			background-size: 400px 300px;
+			}
+
+
+			.keke h1{
+				float: middle;
+				font-family: Comic Sans MS;
+				font-size: 80px;
+						color:#E5E4E2;
+						text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+			}
+
+		.navigation{
+			border: 1px solid black;
+			background-color: #3D3C3A;
+			height: 50px;
+			line-height: 50px;
+			color: white;
+			
+		}
+		.navigation a{
+			text-decoration: none;
+			display: inline-block;
+			width: 250px;
+			float: left;
+			border-right:1px solid black;
+			text-align: center;
+			font-family: Comic Sans MS;
+			font-size: 200%;
+			color: white;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+		}
+		 .navigation a:hover{
+		 	background-color: #F660AB;
+		 }
+
+			.search input[type=text]{
+			width: 400px;
+			height: 30px;
+			border-radius: 25px;
+			border: 1px solid black;
+			margin-top: 5px;
+		}
+	
+		.search{
+			float: right;
+			margin top: 5px;
+			
+		}
+		.search button{
+			background-color: white;
+			color: black;
+			float: right;
+			padding: 10px 10px;
+			margin-top: 10px;
+			font-size: 12px;
+			cursor: pointer;
+			border: none;
+
+			}
+
+			.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3D3C3A;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	  display: block;}
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.content{
+	background-color: #2C3539;
+	border: 1px solid black;
+}
+
+.footer{
+			border: none;
+			height: 600px;
+			background-color: #2B1B17;
+
+		}
+		.container1{
+			width: 2000px;
+			margin-right: 100px;
+			background-color: #2B1B17;
+			height: 700px;
+		}
+
+		.sub{
+			width: 600px;
+			float: left;
+			text-align: center;
+			padding: 10px;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+		}
+		.mid{
+			width: 600px;
+			text-align: justify;
+			padding: 10px;
+			float: left;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+		}
+		.lee{
+			font-family: Comic Sans MS;
+			font-size: 40px;
+			text-align: center;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+				
+				
+		}
+		.pf1{
+			font-family: Comic Sans MS;
+			font-size: 50px;
+			text-align: center;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+				
+		}
+		.pa1{
+			font-family: Comic Sans MS;
+			font-size: 30px;
+			text-align: center;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+				
+		}
+		.pa1:hover{
+			background-color: red;
+		}
+		.lee1{
+
+				border: none;
+				text-align: center;
+			color: white;
+			font-family: Comic Sans MS;
+			font-size: 30px;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+			}
+		.nml{
+			background-color: #132226;
+		}
+		.fa-facebook {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+   box-shadow: 5px 5px 5px 5px pink;
+   height: 20px;
+   width: 20px;
+
+}
+
+			.fa-twitter {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+   box-shadow: 5px 5px 5px 5px pink;
+   height: 20px;
+   width: 20px;
+
+}
+
+		.fa-instagram{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+   box-shadow: 5px 5px 5px 2px pink;
+   height: 20px;
+   width: 20px;
+
+}
+		.fa:hover {
+    opacity: 0.7;
+    color: black;
+		}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+			}
+		.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #bb0000;
+  color: white;
+			}
+
+			@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+		.nana0{
+			font-family: Comic Sans MS;
+  font-size: 50px;
+  text-align: center;
+  min-width: 350px;
+  color: white;
+  text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 10px, #132226 0px 0px 10px, #132226 0px 0px 10px, #132226 0px 0px 10px, #132226 0px 0px 10px, #132226 0px 0px 10px;
+  
+  
+		}
+.nana{
+  font-family: Comic Sans MS;
+  font-size: 50px;
+  text-align: center;
+  min-width: 350px;
+  color: black;
+			
+}
+.nana1{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+  font-family: Comic Sans MS;
+
+}
+
+.nana2{
+	font-size: 30px;
+  font-weight: bold;
+  
+  font-family: Comic Sans MS;
+  text-align: center;
+}
+#form-outer {
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 50px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#userAge {
+  width: 40px;
+}
+
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+/**.In/out,
+input[type="radio"]{
+  float: left;
+  margin-right: 5px;**/
+}
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+
+.dropdown1 {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio, .checkbox {
+  position: center;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  }
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+	<div class="container">
+	<div class="header">
+		<div class="keke">
+			<h1 align="center">The Memories<br>(Cake and Bakery)</h1>
+	
+	</div>
+	<div class="navigation">
+		<a href="index.html"><i class="material-icons"><i class="fa fa-home" style="color: white;padding: 3px;">Home</i></a>
+		<a href=" about.html"><i class="material-icons"><i class="fa fa-address-book-o" style="color: white;padding: 3px;">About</i></a>
+		<a href="Grownup.html"><i class="material-icons"><i class="fa fa-birthday-cake" style="color: white;padding: 3px;">Grown Up</i></a>
+		<div class="dropdown"><a href="gallery.html"><i class="material-icons"><i class="fa fa-photo" style="color: white;padding: 3px;">Gallery</i></a>
+			<div class="dropdown-content">
+				<a href="gallery.html"><i class="material-icons"><i class="fa fa-birthday-cake" style="color: white;padding: 3px;">Cake</i></a>
+				<a href="dessert.html"><i class="material-icons"><i class="fa fa-heart" style="color: white;padding: 3px;">Dessert</i></a>
+				<a href="coffee.html"><i class="material-icons"><i class="fa fa-coffee" style="color: white;padding: 3px;">Coffee</i></a>
+				
+			</div></div>
+		<a href="feedback.html"><i class="material-icons"><i class="fa fa-street-view" style="color: white;padding: 3px;">Feedback</i></a>
+		<a href="contant.html"><i class="material-icons"><i class="fa fa-phone" style="color: white;padding: 3px;">Contact</i></a>
+	<div class="search">
+		<form>
+			<input type="text" placeholder="Search products" name="search">
+			<button>
+				<i class="fa fa-search"></i>
+			</button>
+		</form></div></div>
+		<div class="content">
+		<h1 class="nana0"id="title">"The Memories Cake Shop"
+  <h2 class="nana0">Customers Feedback Form</h2></h1>
+  <div id="form-outer">
+<p id="description" class="nana"> Let us know how can we improve</p>
+<form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+   <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" for="name" class="nana1">* Name: </label>
+      </div>
+      <div class="rightTab">
+        <input class="nana1" autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+      </div>
+    </div>
+  <div class="rowTab">
+      <div class="labels">
+        <label id="email-label" for="email" class="nana1">* Email: </label>
+      </div>
+      <div class="rightTab">
+        <input class="nana1" type="email" name="email" id="email" class="input-field" required placeholder="example@gmail.com">
+      </div>
+    </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="number-label" for="age" class="nana1">* Age: </label>
+      </div>
+      <div class="rightTab">
+        <input class="nana1" type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+      </div>
+    </div>
+  <div class="rowTab">
+      <div class="labels">
+        <label for="currentPos" class="nana1">Location you visited</label>
+      </div>
+      <div class="rightTab">
+        <select class="nana1" id="dropdown1" name="currentPos" class="dropdown">
+      <option disabled value>Select an option</option>
+      <option  value="CM">Capital Mall</option>
+      <option value="CC">City Central</option>
+      <option value="DS">Myanmar Plaza</option>
+      <option value="AP">Juction City</option>
+      
+    </select>
+      </div>
+    </div>
+ 
+    <div class="rowTab">
+      <div class="labels">
+        <label for="userRating" class="nana1">* DineIn/ Take Out</label>
+      </div>
+      <div class="rightTab">
+        <ul style="list-style: none;">
+          <li class="nana1" class="radio"><label>Dine In<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+          <li class="nana1" class="radio"><label>Take Out<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+        </ul>
+      </div>
+  </div>
+<div class="rightTab">
+      <div class="labels">
+        <label for="preferences" class="nana2">Things that should be improved in the future(Check all that apply): </label>
+      </div>
+      <div class="rightTab">
+        <ul id="preferences" style="list-style: none;">
+          <li class="nana2" class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Food Quality</label></li>
+          <li class="nana2" class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Services</li>
+          <li class="nana2" class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Interior</label></li>
+          <li class="nana2" class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Menu</label></li>
+          <li class="nana2" class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Food taste</label></li>
+          </ul>
+      </div>
+    </div>
+<div class="rowTab">
+      <div class="labels" >
+        <label for="comments" class="nana1">Any Comments or Suggestions?</label>
+      </div>
+      <div class="rightTab">
+        <textarea class="nana1" id="comments" class="input-field" style="height:200px; resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
+    </div>
+    <button class="nana1" id="submit" type="submit">Submit</button>
+  </form>
+</div></div>
+  <div class="footer">
+					<div class="container1">
+					<div class="sub">
+						<img src="foot.jpg" width="500px" height="300px"><br>
+						<p class="lee">Happiness is like a cake:<br>have too much of it and you get sick of it</p>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i  class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+
+					<div class="mid">
+						<a class="pf1">Support</a><br><br><br>
+						<a class="pa1" href="feedback.html">Feedback</a>
+						<br>
+						<a class="pa1" href="contant.html">Contact</a>
+						<br>
+						<a class="pa1" href="about.html">About us<a>
+							<br>
+						<a class="pa1" href="gallery.html">Enjoy with our cakes</a>
+						<p class="lee">Take the broken piece of your life,
+							<br>bake a master cake out of it</p><br><br>
+						<p class="lee1">Powered by Phone Myat Min&#169;2020</p>
+					</div>
+
+					<div class="right">
+						<a class="pf1">About Location</p>
+						<a class="pa1" href="contant.html">Find or not?
+						Detail our contact<br>
+						<br>
+						NO(22), ThitSar Road;<br>
+						 YanKin, Yangon. <br>
+						+959772563021,+95997357493, +9595027081<br></a><br><br>
+							<a class="pa1" href="#">Info@MemoriesCakeshop.com</a><br>
+							<a class="pa1" href="index.html">web.MemoriesCakeshop.com</a>
+						</div></div></div>
+			
+</body>
+</html>

@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+
+		.container{
+			width: 2000px;
+			margin: 8 auto;
+			border-left: none;   
+			border-right: none;
+
+			}
+		.header{	
+			
+			border: 1px solid black;
+			height: 1000px;
+			background-image: url(header1.jpg);
+			background-repeat: no-repeat;
+			background-position:top left;
+			background-color: #34282C;
+			background-size: 400px 300px;
+			}
+
+
+			.keke h1{
+				float: middle;
+				font-family: Comic Sans MS;
+				font-size: 80px;
+						color:#E5E4E2;
+						text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+			}
+			.koi{
+				float: top left;
+				width: 500px;
+				height: 400px;
+			}
+			
+
+			.navigation{
+			border: 1px solid black;
+			background-color: #3D3C3A;
+			height: 50px;
+			line-height: 50px;
+			color: white;
+			
+		}
+		.navigation a{
+			text-decoration: none;
+			display: inline-block;
+			width: 250px;
+			float: left;
+			border-right:1px solid black;
+			text-align: center;
+			font-family: Comic Sans MS;
+			font-size: 200%;
+			color: white;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+		}
+		 .navigation a:hover{
+		 	background-color: #F660AB;
+		 }
+		
+
+			.search input[type=text]{
+			width: 400px;
+			height: 30px;
+			border-radius: 25px;
+			border: 1px solid black;
+			margin-top: 5px;
+		}
+	
+		.search{
+			float: right;
+			margin top: 5px;
+			
+		}
+		.search button{
+			background-color: white;
+			color: black;
+			float: right;
+			padding: 10px 10px;
+			margin-top: 10px;
+			font-size: 12px;
+			cursor: pointer;
+			border: none;
+
+			}
+
+				.footer{
+			
+			height: 600px;
+			background-color: #34282C;
+			border: 1px solid black;
+
+		}
+		.container1{
+			width: 2000px;
+			margin-right: 100px;
+			background-color: #2B1B17;
+			height: 700px;
+
+		}
+
+		.sub{
+			width: 600px;
+			float: left;
+			text-align: center;
+			padding: 10px;
+				text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+		}
+		.mid{
+			width: 600px;
+			text-align: justify;
+			padding: 10px;
+			float: left;
+				text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+		}
+		.right{
+				width: 600px;
+			text-align: justify;
+			padding: 10px;
+			float: right;
+				text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				color: white;
+		}
+		.lee{
+			font-family: Comic Sans MS;
+			font-size: 40px;
+			text-align: center;
+				color: white;
+					text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				
+		}
+		.pf1{
+			font-family: Comic Sans MS;
+			font-size: 50px;
+			text-align: center;
+			color: white;
+					text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				
+		}
+		.pa1{
+			font-family: Comic Sans MS;
+			font-size: 30px;
+			text-align: center;
+			color: white;
+				text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				
+				
+		}
+		.pa1:hover{
+			background-color: red;
+		}
+		.lee1{
+
+				border: none;
+				text-align: center;
+			color: white;
+			font-family: Comic Sans MS;
+			font-size: 30px;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+			}
+		.nml{
+			background-color: #132226;
+		}
+		.box img{
+			border-radius: 30px;
+			border: none;
+			text-align: center;
+			padding: 10px;
+			box-shadow: 5px 10px 15px 2px pink;
+		}
+
+		.sub img{
+			border-radius: 30px;
+			border: none;
+			text-align: center;
+			padding: 10px;
+			
+		}
+
+		.nml{
+			background-color: #132226;
+			border: none;
+		}
+
+		.content{
+			width: 2000px;
+			border: none;
+			background-color: #2B1B17;
+			
+		}
+
+		.nana{
+			float: right;
+			font-size: 30px;
+			font-family: Comic Sans MS;
+			text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 40px 40px 0px rgba(170,74,46,0);
+			color: white;
+			text-align: justify;
+			padding: 20px;
+
+
+		}
+		.pmm{
+			float: left;
+			padding: 10px;
+			box-shadow: 5px 10px 15px 2px pink;
+			
+		}
+		.pmm1{
+			float: right;
+			padding: 10px;
+			box-shadow: 5px 10px 15px 2px pink;
+
+
+		}
+		.pmm:hover{
+			opacity: 0.8;
+			display: block;
+			box-shadow: 15px 10px 10px 5px #DE8CF0;
+
+		}
+		.pmm1:hover{
+			opacity: 0.8;
+			display: block;
+			box-shadow: 30px 20px 20px 5px #DE8CF0;
+		}
+		.box img{
+			opacity: 0.9;
+			border-radius: 20px;
+		}
+		.box img:hover{
+			opacity: 0.8;
+			box-shadow: 10px 5px 10px 10px pink;
+		}
+		.nana1{
+				border: none;
+				text-align: center;
+			color: white;
+			font-family: Comic Sans MS;
+			font-size: 50px;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+				background-color: #3D3C3A;
+		}
+		.nana2{
+				float: left;
+			font-size: 30px;
+			font-family: Comic Sans MS;
+			text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px, 40px 40px 0px rgba(170,74,46,0);
+			color: white;
+			text-align: justify;
+			padding: 10px;
+		}
+		
+
+		.oo{
+			opacity: 0.8;
+			border-radius: 30px;
+			box-shadow: 5px 5px 3px 1px white;
+		}
+		.oo:hover{
+			opacity: 0.7;
+			box-shadow: 10px 5px 10px 10px pink;
+		}
+		.nana3{
+				border: none;
+				text-align: center;
+			color: white;
+			font-family: Comic Sans MS;
+			font-size: 40px;
+			text-shadow: -2px 2px black;
+				text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #132226 0px 0px 20px, #132226 0px 0px 30px, #132226 0px 0px 40px, #132226 0px 0px 50px, #132226 0px 0px 75px;
+			}
+		.fa-facebook {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+   box-shadow: 5px 5px 5px 5px pink;
+   height: 20px;
+   width: 20px;
+
+}
+
+			.fa-twitter {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+   box-shadow: 5px 5px 5px 5px pink;
+   height: 20px;
+   width: 20px;
+
+}
+
+		.fa-instagram{
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+   box-shadow: 5px 5px 5px 2px pink;
+   height: 20px;
+   width: 20px;
+
+}
+		.fa:hover {
+    opacity: 0.7;
+    color: black;
+		}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+			}
+		.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #bb0000;
+  color: white;
+			}
+
+			.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3D3C3A;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	  display: block;}
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+	<div class="header">
+		<div class="keke">
+			<h1 align="center">The Memories<br>(Cake and Bakery)</h1>
+	
+	</div>
+	<div class="navigation">
+		<a href="index.html"><i class="material-icons"><i class="fa fa-home" style="color: white;padding: 3px;">Home</i></a>
+		<a href=" about.html"><i class="material-icons"><i class="fa fa-address-book-o" style="color: white;padding: 3px;">About</i></a>
+		<a href="Grownup.html"><i class="material-icons"><i class="fa fa-birthday-cake" style="color: white;padding: 3px;">Grown Up</i></a>
+		<div class="dropdown"><a href="gallery.html"><i class="material-icons"><i class="fa fa-photo" style="color: white;padding: 3px;">Gallery</i></a>
+			<div class="dropdown-content">
+				<a href="gallery.html"><i class="material-icons"><i class="fa fa-birthday-cake" style="color: white;padding: 3px;">Cake</i></a>
+				<a href="dessert.html"><i class="material-icons"><i class="fa fa-heart" style="color: white;padding: 3px;">Dessert</i></a>
+				<a href="coffee.html"><i class="material-icons"><i class="fa fa-glass" style="color: white;padding: 3px;">Coffee</i></a>
+				
+			</div></div>
+		<a href="feedback.html"><i class="material-icons"><i class="fa fa-street-view" style="color: white;padding: 3px;">Feedback</i></a>
+		<a href="contant.html"><i class="material-icons"><i class="fa fa-phone" style="color: white;padding: 3px;">Contact</i></a>
+	<div class="search">
+		<form>
+			<input type="text" placeholder="Search products" name="search">
+			<button>
+				<i class="fa fa-search"></i>
+			</button>
+		</form></div></div>
+		<div class="content">
+			<div class="hi">
+
+				<img class="pmm" src="bake.jpg" height="500px" width="950px">
+				<img class="pmm1"src="bake1.jpg" height="490px" width="970px"><br>
+				<p class="nana">How to bake a cake for beginners?
+			A freshly baked cake smothered in frosting makes an irresistible homemade dessert. Intimidated? Start here. Whether you need a birthday cake for someone special or an over-the-top holiday cake, we'll teach you how to bake a cake that's moist and mouthwatering every time. We'll even show you how to frost a cake so it looks picture perfect. <br>Before we can get to the steps to make a cake, choose a recipe to get you started. You can keep it simple with a yellow cake (pictured above), or you can choose a slightly showier recipe, like a chocolaty devil's food cake or a vibrant red velvet cake recipe. If you're not a fan of frosting, try a German chocolate cake. We also a have a few birthday cake recipes for celebratory occasions. The possibilities are almost endless, but avoid angel food, pound cakes, sponge cakes, and chiffon cakes because they require a different method.
+			</p>
+		
+				<div class="box_row">
+				<div class="box">
+					<img src="step1.jpg" width="600px" height="400px">
+					<img src="step1a.jpg" width="600px" height="400px">				
+					<img src="step1b.jpg" width="600px" height="400px">
+						<p class="nana1" align="center">Step 1: Prepare Baking Pans<br></p>
+						<p class="nana2">
+						Nobody wants their cake to stick to the pan, so it's important to prep your pans before pouring in the batter. With the exception of angel food and chiffon cakes, most recipes call for greasing and flouring the pan or lining the pan with waxed or parchment paper.
+
+As for knowing what type of baking pan to use, our Test Kitchen prefers shiny pans for achieving a golden appearance. If you use a dark or dull-finish pan, reduce the oven temperature by 25°F and check doneness 3 to 5 minutes early to prevent overbrowning.</p>
+
+					<img class="oo"src="ing.jpg" width="600px" height="450px">
+					<img class="oo" src="ing1.jpg" width="600px" height="450px">
+					<img class="oo" src="ing2.jpeg" width="600px" height="450px">
+					<p class="nana1">Step 2: Allow Ingredients to Reach Room Temperature</p>
+					<p class="nana2">
+					Many recipes require ingredients such as eggs and butter to stand at room temperature. This allows the butter to blend easily with other ingredients and the eggs will yield a higher cake volume. (For food safety reasons, don't leave the eggs at room temperature for more time than specified in the recipe.<br></p>
+
+					<img class="oo"src="prehe.jpg" width="600px" height="450px">
+					<img class="oo" src="prehe1.jpg" width="600px" height="450px">
+					<img class="oo" src="prehe2.jpg" width="600px" height="450px">
+					<p class="nana1">Step 3: Preheat the Oven</p>
+					<p class="nana2">
+					When a cake bakes too quickly it can develop tunnels and cracks, too slowly and it can be coarse. Let your oven preheat for at least 10 minutes, and use an oven thermometer ($7, Target) to make sure it reaches the proper temperature. If you're using dark cake pans, you'll want to reduce the oven temperature called for in your recipe by 25°F.<br></p>
+
+
+					<img class="oo"src="dry.jpg" width="600px" height="450px">
+					<img class="oo" src="dry1.jpg" width="600px" height="450px">
+					<img class="oo" src="dry2.jpg" width="600px" height="450px">
+					<p class="nana1">Step 4: Stir Together Dry Ingredients</p>
+					<p class="nana2">
+					Dry ingredients usually include flour, baking powder and/or baking soda, and salt. Rather than adding each dry ingredient individually to the batter, whisk ($8, Crate & Barrel) them together in a bowl beforehand. That way you know the ingredients are equally distributed throughout the batter.<br></p>
+
+					<img class="oo"src="but.jpg" width="600px" height="450px">
+					<img class="oo" src="tenor.gif" width="600px" height="450px">
+					<img class="oo" src="but1.jpg" width="600px" height="450px">
+					<p class="nana1">Step 5: Combine the Butter and Sugar</p>
+					<p class="nana2">
+					Wondering how to make a cake with a light, airy crumb? Creaming butter and sugar is the most important step. Here's how:
+
+Using an electric mixer ($50, Bed Bath & Beyond) on medium to high speed, beat the butter for 30 seconds. Generally, a stand mixer requires a medium speed for this step and a hand mixer requires a higher speed.
+Add the sugar (and vanilla if the recipe calls for it) and beat the mixture on medium speed until it is combined and has a light, fluffy texture. This will take 3 to 5 minutes. (DON'T cut this short). Scrape the bowl occasionally while beating. Tiny bubbles will be created as the butter and sugar are combined, which will give your cake that dreamy, light, fluffy texture<br></p>
+
+					<img class="oo"src="egg.jpg" width="600px" height="450px">
+					<img class="oo" src="egg1.jpg" width="600px" height="450px">
+					<img class="oo" src="egg2.jpg" width="600px" height="450px">
+					<p class="nana1">Step 6: Add Eggs One at a Time</p>
+					<p class="nana2">
+					Add eggs (or egg whites) one at a time, beating well after each. Their protein creates structure around air bubbles to maintain texture.
+
+Test Kitchen Tip: Break eggs individually into a custard cup or small bowl first. This way if you get shell fragments, you can easily fish them out of the cup rather than try to get them out of the batter.<br></p>
+
+					<img class="oo"src="add.jpg" width="600px" height="450px">
+					<img class="oo" src="add1.jpg" width="600px" height="450px">
+					<img class="oo" src="add2.jpg" width="600px" height="450px">
+					<p class="nana1">Step 7: Alternate Adding Dry and Wet Ingredients</p>
+					<p class="nana2">
+					Alternate between adding some of the flour mixture and some of the milk (or other liquid specified in the recipe) to the butter-egg-sugar mixture, beating on low speed after each addition until combined. Begin and end with the flour mixture. This is because when liquid is mixed into flour, gluten begins to form. Too much gluten makes for a tough cake, so be sure to start and finish with flour, and not overmix once you add liquid.
+
+Test Kitchen Tip: Be careful not to overmix at this stage or else you might get elongated, irregular holes in the finished cake.<br></p>
+
+					<img class="oo"src="pour.jpg" width="600px" height="450px">
+					<img class="oo" src="pour1.jpg" width="600px" height="450px">
+					<img class="oo" src="pour2.jpg" width="600px" height="450px">
+					<p class="nana1">Step 8: Pour Batter into Pans and Bake</p>
+					<p class="nana2">
+					Divide the batter evenly between the baking pans. Use an offset spatula ($16, Target) to spread the batter in an even layer. Be sure to spread it to the pan edge. Bake your cake according to your recipe's directions.
+
+Related: 21 Essential Baking Tools Every Home Cook Needs<br></p>
+
+					<img class="oo"src="check.jpg" width="600px" height="450px">
+					<img class="oo" src="check1.jpg" width="600px" height="450px">
+					<img class="oo" src="check2.jpg" width="600px" height="450px">
+					<p class="nana1">Step 9: Check Cake for Doneness</p>
+					<p class="nana2">
+					Overbaked cake equals dry cake and no one wants that. Start checking the cake for doneness after the recipe's stated minimum baking time, avoiding opening the oven door until it's time to prevent letting the heat escape. For creamed cakes, insert a wooden toothpick near the center of the cake. If the pick comes out clean (with only a crumb or two on it), the cake is done. If there is any wet batter on it, bake the cake for a few minutes more and test in a new spot with a new toothpick.
+
+<br></p>
+
+					<img class="oo"src="cool.jpg" width="600px" height="450px">
+					<img class="oo" src="cool1.jpg" width="600px" height="450px">
+					<img class="oo" src="cool2.jpg" width="600px" height="450px">
+					<p class="nana1">Step 10: Cool the Cake</p>
+					<p class="nana2">
+					Let the cakes cool in the pans on a wire rack ($15, Bed Bath & Beyond) for 10 minutes maximum. To remove from the pans, run a knife around the edges of the cake to loosen it from the sides. Place a wire rack over the top of the cake and flip the pan. Lift the pan off the cake, being careful not to tear the edges of the cake. If you used waxed or parchment paper, gently peel the paper off the cake.
+
+Allow the cake to cool completely (about 1 hour). This is a key step to letting the cake firm up, making it less likely to break apart as you frost it. (And it keeps the frosting from melting as soon as you spread it!)
+
+<br></p>
+
+<img class="oo"src="ass.jpg" width="600px" height="450px">
+					<img class="oo" src="ass1.jpg" width="600px" height="450px">
+					<img class="oo" src="ass2.jpg" width="600px" height="450px">
+					<p class="nana1">Step 11: Assemble the Cake</p>
+					<p class="nana2">
+					To avoid crumbs in your frosting, brush the cake layers with a pastry brush ($8, Williams Sonoma) before assembling. Spread about ½ cup of frosting over the first layer, then carefully top with the next layer. Repeat until the cake is assembled.
+
+Test Kitchen Tip: It takes about 2½ to 3 cups of icing to generously fill and frost a two-layer 9-inch cake. For a three-layer cake, plan on using 3½ to 4 cups.
+
+Allow the cake to cool completely (about 1 hour). This is a key step to letting the cake firm up, making it less likely to break apart as you frost it. (And it keeps the frosting from melting as soon as you spread it!)
+
+<br></p>
+
+<img class="oo"src="fro.jpg" width="600px" height="450px">
+					<img class="oo" src="fro1.jpg" width="600px" height="450px">
+					<img class="oo" src="fro2.png" width="600px" height="450px">
+					<p class="nana1">Step 12: Add the First Coat of Frosting</p>
+					<p class="nana2">
+					The secret to knowing how to frost a layer cake is a crumb coat. To do this, spread a very thin layer of frosting over the sides and top of the cake. This initial coat doesn't need to look perfect; it's another way to keep the crumbs out of the frosting. Let the cake stand for 30 minutes so the frosting sets up.
+
+Test Kitchen Tip: For quick cleanup, tuck small pieces of waxed paper around and under the first cake layer on a pedestal ($20, Crate & Barrel) or cake plate.
+
+<br></p>
+
+<img class="oo"src="decor.jpg" width="600px" height="450px">
+					<img class="oo" src="decor1.jpg" width="600px" height="450px">
+					<img class="oo" src="decor2.jpg" width="600px" height="450px">
+					<p class="nana1">Step 13: Frost and Decorate</p>
+					<p class="nana2">
+					Using an offset spatula or table knife, generously spread the remaining frosting over the top and sides of the cake, swirling as you go. Once the cake is completely covered, go back and add more swirls as desired. Serve the cake within 2 hours or refrigerate to store.
+
+Related: How to Freeze Cakes So You've Always Got a Dessert on Deck
+
+Now that you know how to make a cake from scratch, keep practicing your cake decorating skills at home with different colored frosting, piping techniques, and toppings. For more cake ideas, here are some easy and elegant cake recipes to inspire your next baking session.
+
+<br></p>
+
+<p class="nana2">After all the steps: you can get your home-made cake.<br>I hope you enjoy how to bake a cake by step by step. Enjoy and have a hapy moment with your cakes!</p>
+							<img  src="happy.png" width="960px" height="500px">
+							<img  src="happy1.png" width="960px" height="500px">
+							
+							<p class="nana1">Ban Appetite!<br>"Team Memories Cake Shop"</p>
+
+						</div>
+					</div>
+							
+
+					</div>
+					<div class="footer">
+					<div class="container1">
+					<div class="sub">
+						<img src="foot.jpg" width="500px" height="300px"><br>
+						<p class="lee">Happiness is like a cake:<br>have too much of it and you get sick of it</p>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i  class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+
+					<div class="mid">
+						<a class="pf1">Support</a><br><br><br>
+						<a class="pa1" href="feedback.html">Feedback</a>
+						<br>
+						<a class="pa1" href="contant.html">Contact</a>
+						<br>
+						<a class="pa1" href="about.html">About us<a>
+							<br>
+						<a class="pa1" href="gallery.html">Enjoy with our cakes</a>
+						<p class="lee">Take the broken piece of your life,
+							<br>bake a master cake out of it</p><br><br>
+						<p class="lee1">Powered by Phone Myat Min&#169;2020</p>
+					</div>
+
+					<div class="mid">
+						<a class="pf1">About Location</p>
+						<a class="pa1" href="contant.html">Find or not?
+						Detail our contact<br>
+						<br>
+						NO(22), ThitSar Road;<br>
+						 YanKin, Yangon. <br>
+						+959772563021,+95997357493, +9595027081<br></a><br><br>
+							<a class="pa1" href="#">Info@MemoriesCakeshop.com</a><br>
+							<a class="pa1" href="index.html">web.MemoriesCakeshop.com</a>
+						</div></div></div>
+		
+			
+</body>
+</html>
